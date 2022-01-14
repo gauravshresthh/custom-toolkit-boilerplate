@@ -1,0 +1,25 @@
+const colors = {
+	primary: '#007bff',
+	secondary: '#00CE17',
+	main: '#31823A',
+	gray: '#4F4F4F',
+	link: '#0000EE',
+	text: '#828282',
+	placeholder: '#F7F9FA',
+	grayUltraLight: '#F7FAFA',
+	white: '#FFFFFF',
+	black: '#000000',
+	transparent: 'transparent',
+	danger: '#EB5757',
+	header: '#2A56C6',
+	footer: '#EFF5F8',
+	footerIcon: '#919DB5',
+	warning: '#F2C94C',
+	buttonMain: '#3B5767',
+	buttonSecondary: '#1BA0D9',
+	grayIcon: '#CDCDD2',
+	mainIcon: '#FC6D3F',
+	cardBorder: '#F5F5F5',
+};
+
+export default colors;

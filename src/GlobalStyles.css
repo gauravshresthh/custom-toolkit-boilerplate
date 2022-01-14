@@ -1,0 +1,207 @@
+html,
+body {
+    height: auto;
+    width: 100%;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+body.fontLoaded {
+    font-family: 'Roboto', sans-serif;
+}
+
+#app {
+    background-color: #ffffff;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* modal */
+
+.ant-modal {
+    padding-bottom: 0;
+    max-width: 100%;
+}
+
+.ant-modal-body {
+    padding: 0;
+}
+
+.ant-modal-header {
+    padding: 16px 30px;
+}
+
+
+/* popover */
+
+
+/* participant mute popover */
+
+.eMoPdN {
+    margin-left: 20px;
+}
+
+.ant-popover {
+    z-index: 985;
+}
+
+.ant-popover-inner {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.ant-popover-inner-content {
+    padding: 0;
+}
+
+.ant-popover-arrow {
+    display: none;
+}
+
+
+/*antd image */
+
+ul.ant-image-preview-operations {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.ant-image-preview-img {
+    max-height: 74%;
+}
+
+
+/* scrollbar */
+
+.withScrollbar {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* text truncate*/
+
+.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.withScrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+.withScrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.withScrollbar::-webkit-scrollbar-thumb {
+    background: #aaabae;
+    border-radius: 10px;
+    max-height: 20px !important;
+}
+
+
+/* Handle on hover */
+
+.withScrollbar::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+
+/* //snackbar */
+
+.ant-notification-notice {
+    padding: 10px 15px;
+}
+
+.ant-notification-notice-close {
+    top: 8px;
+}
+
+
+/* //antd date picker */
+
+.ant-picker:hover,
+.ant-picker-focused {
+    border-color: none;
+}
+
+.ant-picker-focused {
+    box-shadow: none;
+}
+
+.ant-picker-panel-container,
+.ant-picker-panel,
+.ant-picker-date-panel,
+.ant-picker-body,
+.ant-picker-header,
+table.ant-picker-content {
+    width: 100% !important;
+}
+
+
+/* //antd switch */
+
+.ant-switch-checked {
+    background-color: #376af5;
+}
+
+
+/* //antd collapse */
+
+div.ant-collapse-header {
+    width: 100% !important;
+}
+
+.ant-collapse.ant-collapse-icon-position-left.ant-collapse-ghost {
+    width: 100% !important;
+}
+
+
+/* //floating create btn */
+
+.floating-create {
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    bottom: 20px;
+}
+
+@keyframes highlights {
+    0% {
+        background: rgba(55, 106, 245, 0.15);
+    }
+    100% {
+        background: none;
+    }
+}
+
+.highlightMessaage {
+    animation: highlights 4s;
+}
